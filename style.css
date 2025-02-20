@@ -1,0 +1,14 @@
+/* GLOBAL RESERT */
+@import './css/global/utility/global.css';
+
+/* UTILITY */
+@import './css/global/utility/font.css';
+@import './css/global/utility/color.css';
+
+/* HEADER */
+@import './css/header/nav.css';
+
+/* MAIN */
+@import './css/main/main-bg.css';
+@import './css/main/form-container.css';
+

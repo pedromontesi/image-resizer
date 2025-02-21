@@ -22,25 +22,28 @@
     </nav>
 </header>
 
-<main>
-    <section class="main-bg">
+<main class="main-bg">
+    <section>
         <article class="container-global">
-            <form class="form-container text-m" action="">
-
-                <label for="width">Altura</label>
-                <input type="range" id="width" min="0" max="100">
+            <form id="form" class="form-container text-m">
+                <label for="width">Largura</label>
+                <input type="range" id="width" name="width" min="0" max="500">
                 
-                <label for="height">Largura</label>
-                <input type="range" id="height" min="0" max="100">
-            
+                <label for="height">Altura</label>
+                <input type="range" id="height" name="height" min="0" max="500">
+                
                 <label for="filter">Saturação</label>
-                <input type="range" id="filter" min="0" max="100">
-            
+                <input type="range" id="filter" name="filter" min="0" max="200">
             </form>
+            
         </article>
     </section>
+
+    <img src="./img/example.jpg" class="img" width="400" height="400" alt="">
+
+
 </main>
 
-<script type="module" src="./script.js"></script>
+<script type="module"  src="./script.js"></script>
 </body>
 </html>

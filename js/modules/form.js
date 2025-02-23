@@ -18,10 +18,10 @@ const handleStyle = {
         this.element.style.height = value + 'px';
 
     }
+
 }
 
-
-
+console.log(img.style)
 
 
 function handleChange(event) {
